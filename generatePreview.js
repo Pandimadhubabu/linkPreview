@@ -46,7 +46,6 @@ const generatePreview = (url, format, callback) => {
             callback(JSON.stringify({title:title, description: descr, image:img}))
           }else{
             const html =
-    <head>
 `<div class="linkPreviewContainer">
                 <a href="${url}" data-href="${url}" title="${url}" rel="nofollow" target="_blank" class="linkPreviewText">
                     <strong>${title}</strong><br>
